@@ -66,6 +66,4 @@ public class SmokeTest {
     public void afterSuite(){
         System.out.println("after suite");
     }
-
 }
-

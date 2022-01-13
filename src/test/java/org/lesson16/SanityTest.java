@@ -14,7 +14,5 @@ public class SanityTest {
     @Test(groups = "prod", dataProvider = "browser", dataProviderClass = BrowserDataProvider.class)
     public void initialTest2(String data){
         System.out.println("Sanity PROD " + data);
-
     }
 }
-
