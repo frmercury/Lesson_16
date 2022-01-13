@@ -16,4 +16,3 @@ public class SanityTest {
         System.out.println("Sanity PROD " + data);
     }
 }
-
