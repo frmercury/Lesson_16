@@ -19,4 +19,5 @@
             <class name="org.lesson16.SanityTest"/>
         </classes>
     </test>
+
 </suite>
