@@ -8,3 +8,4 @@ public class BrowserDataProvider {
         return new Object[][] { { "chrome" }, { "firefox" } };
     }
 }
+
