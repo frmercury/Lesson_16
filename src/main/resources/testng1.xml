@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="WebSite2_Regression" verbose="1" >
+    <groups>
+        <run>
+            <include name="uat"/>
+        </run>
+    </groups>
+
+    <test name="Build_32_UAT">
+        <classes>
+            <class name="org.lesson16.RegressionTest"></class>
+        </classes>
+    </test>
+</suite>
