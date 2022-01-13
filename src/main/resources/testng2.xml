@@ -11,4 +11,5 @@
             <class name="org.lesson16.SmokeTest" />
         </classes>
     </test>
+
 </suite>

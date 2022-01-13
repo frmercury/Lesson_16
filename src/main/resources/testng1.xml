@@ -12,4 +12,5 @@
             <class name="org.lesson16.RegressionTest"></class>
         </classes>
     </test>
+
 </suite>

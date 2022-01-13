@@ -14,6 +14,7 @@
         </classes>
     </test>
 
+
     <test name="Sanity">
         <classes>
             <class name="org.lesson16.SanityTest"/>
