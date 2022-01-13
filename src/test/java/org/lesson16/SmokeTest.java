@@ -36,9 +36,10 @@ public class SmokeTest {
     public void initialTest1(){
         System.out.println("smoke test UAT");
     }
-    @Test(groups = "prod")
-    public void initialTest2(){
-        System.out.println("smoke test PROD");
+    @Test(groups = "prod", dataProvider = "browser", dataProviderClass = BrowserDataProvider.class)
+    public void initialTest2(String data){
+        System.out.println("Smoke PROD " + data);
+
     }
 
     @AfterMethod
